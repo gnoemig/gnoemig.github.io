@@ -1,0 +1,59 @@
+.suscribete{
+    background-image: url(https://st.depositphotos.com/2101611/3534/i/450/depositphotos_35341205-stock-photo-white-gray-background.jpg);
+     width: 280px;
+     height: 60px;
+     text-align: center;
+     margin: auto;
+     margin-bottom: 30px;
+     margin-top: 20px;
+     border-radius: 8px;
+}
+
+.descripcion{
+    max-width: 300px;
+    
+   
+}
+
+.formulario{
+   border: 5px solid black ;
+   border-radius: 15px;
+   margin-top: 10px;
+  
+
+
+}
+
+input{
+    border-radius: 5px;
+}
+
+
+/* =========================================== */
+        /* Queries para pantallas SM */
+/* =========================================== */
+
+
+@media   (max-width:600px) {
+    .formulario{
+        margin-top: 30px !important;
+    }
+
+    
+}
+
+
+/* =========================================== */
+        /* Queries para pantallas LG */
+/* =========================================== */
+
+@media   (min-width:800px) {
+    .formulario{
+        margin-left: 180px !important;
+    }
+
+    .formulario form>h3{
+        font-size: 20px;
+
+    }   
+}
